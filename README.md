@@ -1,6 +1,6 @@
 # Challenge #13 – Get your Ducks in a Row
 
-![Ducks in a row](https://cms.craftcodingchallenge.com/assets/images/ducks-in-a-row-foc.jpg)
+![Ducks in a row](https://cms.craftcodingchallenge.com/assets/images/_banner/ducks-in-a-row-foc.jpg)
 
 View the challenge description at:
 https://cms.craftcodingchallenge.com/challenge-13-get-your-ducks-in-a-row
