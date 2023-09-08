@@ -1,34 +1,32 @@
 {% extends '_layout.twig' %}
 
-{% set filterOrder = ['cut', 'colour', 'size'] %}
-
 {% block body %}
 
-    {% set filters = { colour: 'green', size: 'm', cut: 'slim' } %}
+    {% set filterValues = { style: 'elegant', colour: 'green', size: 'm', cut: 'slim' } %}
     {# Your solution code #}
     <div class="text-center font-mono leading-loose">
-        {{ filters|url_encode }}
-        <div class="font-sans text-gray-500">should output</div>
-        cut=slim&colour=green&size=m
+        {{ filterValues|url_encode }}
+        <div class="font-sans text-gray-500">should equal</div>
+        cut=slim&colour=green&size=m&style=casual
     </div>
 
     <hr class="w-full border border-gray-300">
 
-    {% set filters = { size: 's', colour: 'yellow' } %}
+    {% set filterValues = { size: 's', colour: 'yellow' } %}
     {# Your solution code #}
     <div class="text-center font-mono leading-loose">
-        {{ filters|url_encode }}
-        <div class="font-sans text-gray-500">should output</div>
+        {{ filterValues|url_encode }}
+        <div class="font-sans text-gray-500">should equal</div>
         colour=yellow&size=s
     </div>
 
     <hr class="w-full border border-gray-300">
 
-    {% set filters = { cut: 'regular' } %}
+    {% set filterValues = { cut: 'regular' } %}
     {# Your solution code #}
     <div class="text-center font-mono leading-loose">
-        {{ filters|url_encode }}
-        <div class="font-sans text-gray-500">should output</div>
+        {{ filterValues|url_encode }}
+        <div class="font-sans text-gray-500">should equal</div>
         cut=regular
     </div>
 
