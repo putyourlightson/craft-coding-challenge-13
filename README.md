@@ -1,16 +1,15 @@
-# Challenge #XY – Where in the World
+# Challenge #13 – Get your Ducks in a Row
 
-![Limbo](https://www.craftcodingchallenge.com/assets/images/limbo.jpg)
+![Ducks in a row](https://cms.craftcodingchallenge.com/assets/images/ducks-in-a-row-foc.jpg)
 
 View the challenge description at:
-https://www.craftcodingchallenge.com/challenge-11-where-in-the-world
+https://cms.craftcodingchallenge.com/challenge-13-get-your-ducks-in-a-row
 
 This repo extends the stellar [Spin Up Craft](https://github.com/nystudio107/spin-up-craft) template repo by @nystudio107.
 
 ## Work on the challenge in a browser via GitHub Codespaces
 
-1. Click this button:
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=614126211)
+1. Create a new Codespace using this repo
 2. In the resulting Terminal window, type `make dev` to start the project up
 3. Wait until you see output like this, and then access the site via the credentials that are output on the console:
 
