@@ -4,12 +4,12 @@
 
 {% block body %}
 
-    {% set filters = { cut: 'slim', colour: 'green', size: 'm' } %}
+    {% set filters = { colour: 'green', size: 'm', cut: 'slim' } %}
     {# Solve the puzzle #}
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
-        {{ dump({ colour: 'green', cut: 'slim', size: 'm' }) }}
+        {{ dump({ cut: 'slim', colour: 'green', size: 'm' }) }}
     </div>
 
     <hr class="w-full border border-gray-300">
@@ -19,7 +19,7 @@
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
-        {{ dump({ colour: 'yellow', cut: 'slim', size: 's' }) }}
+        {{ dump({ colour: 'yellow', size: 's' }) }}
     </div>
 
     <hr class="w-full border border-gray-300">
@@ -29,7 +29,7 @@
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
-        {{ dump({ colour: null, cut: 'regular', size: null }) }}
+        {{ dump({ cut: 'regular' }) }}
     </div>
 
 {% endblock %}
