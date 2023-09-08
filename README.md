@@ -2,7 +2,7 @@
 
 ![Ducks in a row](https://cms.craftcodingchallenge.com/assets/images/_banner/ducks-in-a-row-foc.jpg)
 
-View the challenge description at:
+View the challenge description at:  
 https://cms.craftcodingchallenge.com/challenge-13-get-your-ducks-in-a-row
 
 This repo extends the stellar [Spin Up Craft](https://github.com/nystudio107/spin-up-craft) template repo by @nystudio107.
