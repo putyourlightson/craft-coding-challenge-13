@@ -6,30 +6,30 @@
 
     {% set filters = { colour: 'green', size: 'm', cut: 'slim' } %}
     {# Your solution code #}
-    <div class="flex justify-between items-center space-x-10">
-        {{ dump(filters) }}
-        <div>should output</div>
-        {{ dump({ cut: 'slim', colour: 'green', size: 'm' }) }}
+    <div class="text-center font-mono leading-loose">
+        {{ filters|url_encode }}
+        <div class="font-sans text-gray-500">should output</div>
+        {{ { cut: 'slim', colour: 'green', size: 'm' }|url_encode }}
     </div>
 
     <hr class="w-full border border-gray-300">
 
     {% set filters = { size: 's', colour: 'yellow' } %}
     {# Your solution code #}
-    <div class="flex justify-between items-center space-x-10">
-        {{ dump(filters) }}
-        <div>should output</div>
-        {{ dump({ colour: 'yellow', size: 's' }) }}
+    <div class="text-center font-mono leading-loose">
+        {{ filters|url_encode }}
+        <div class="font-sans text-gray-500">should output</div>
+        {{ { colour: 'yellow', size: 's' }|url_encode }}
     </div>
 
     <hr class="w-full border border-gray-300">
 
     {% set filters = { cut: 'regular' } %}
     {# Your solution code #}
-    <div class="flex justify-between items-center space-x-10">
-        {{ dump(filters) }}
-        <div>should output</div>
-        {{ dump({ cut: 'regular' }) }}
+    <div class="text-center font-mono leading-loose">
+        {{ filters|url_encode }}
+        <div class="font-sans text-gray-500">should output</div>
+        {{ { cut: 'regular' }|url_encode }}
     </div>
 
 {% endblock %}
