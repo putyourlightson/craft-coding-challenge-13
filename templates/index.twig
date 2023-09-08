@@ -9,7 +9,7 @@
     <div class="text-center font-mono leading-loose">
         {{ filters|url_encode }}
         <div class="font-sans text-gray-500">should output</div>
-        {{ { cut: 'slim', colour: 'green', size: 'm' }|url_encode }}
+        cut=slim&colour=green&size=m
     </div>
 
     <hr class="w-full border border-gray-300">
@@ -19,7 +19,7 @@
     <div class="text-center font-mono leading-loose">
         {{ filters|url_encode }}
         <div class="font-sans text-gray-500">should output</div>
-        {{ { colour: 'yellow', size: 's' }|url_encode }}
+        colour=yellow&size=s
     </div>
 
     <hr class="w-full border border-gray-300">
@@ -29,7 +29,7 @@
     <div class="text-center font-mono leading-loose">
         {{ filters|url_encode }}
         <div class="font-sans text-gray-500">should output</div>
-        {{ { cut: 'regular' }|url_encode }}
+        cut=regular
     </div>
 
 {% endblock %}
