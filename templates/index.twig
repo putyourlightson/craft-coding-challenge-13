@@ -1,11 +1,11 @@
 {% extends '_layout.twig' %}
 
-{% set filterOrder = ['colour', 'cut', 'size'] %}
+{% set filterOrder = ['cut', 'colour', 'size'] %}
 
 {% block body %}
 
     {% set filters = { colour: 'green', size: 'm', cut: 'slim' } %}
-    {# Solve the puzzle #}
+    {# Your solution code #}
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
@@ -15,7 +15,7 @@
     <hr class="w-full border border-gray-300">
 
     {% set filters = { size: 's', colour: 'yellow' } %}
-    {# Solve the puzzle #}
+    {# Your solution code #}
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
@@ -25,7 +25,7 @@
     <hr class="w-full border border-gray-300">
 
     {% set filters = { cut: 'regular' } %}
-    {# Solve the puzzle #}
+    {# Your solution code #}
     <div class="flex justify-between items-center space-x-10">
         {{ dump(filters) }}
         <div>should output</div>
