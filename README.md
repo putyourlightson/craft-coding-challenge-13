@@ -9,7 +9,8 @@ This repo extends the stellar [Spin Up Craft](https://github.com/nystudio107/spi
 
 ## Work on the challenge in a browser via GitHub Codespaces
 
-1. Create a new Codespace using this repo by clicking on **Use this template** and choosing **Open in a codespace**
+1. Click this button:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=688838794)
 2. In the resulting Terminal window, type `make dev` to start the project up
 3. Wait until you see output like this, and then access the site via the credentials that are output on the console:
 
